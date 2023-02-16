@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * Function main - Prints out a line with puts command
- * Main - A function that prints the output of the puts command
- * Return: value is 0
+ * main - A program that prints aline using the puts function
+ * return: 0 (success)
 */
 int main(void)
 {
