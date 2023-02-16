@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * This is a funtion that prints out output using the puts command
- * Main function: prints the output of the puts command
+ * Main - A function that prints the output of the puts command
  * Return: value is 0
 */
 
