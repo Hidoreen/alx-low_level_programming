@@ -7,8 +7,9 @@
 
 int main(void)
 {
+	char learnc[100] = "\"Programming is like building a multilingual puzzle";
 
- puts("\"Programming is like building a multilingual puzzle";
+ puts(learnc);
 
 return (0);
 
