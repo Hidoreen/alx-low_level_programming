@@ -14,12 +14,9 @@ int main(void)
 		putchar((w % 10) + '0');
 		if (w == 9)
 			continue;
-		
 		putchar(',');
 		putchar(' ');
 	}
-
 	putchar('\n');
-
 	return (0);
 }
