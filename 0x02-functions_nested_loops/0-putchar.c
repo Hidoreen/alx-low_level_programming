@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * Return: Always 0 (Success)
- * _putchar - writes the character c 
+ * _putchar - writes the character
  * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
