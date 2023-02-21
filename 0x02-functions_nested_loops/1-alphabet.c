@@ -1,28 +1,18 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
  * main - Entry point
  * Return: Always 0 (Success)
- */
+*/
 
-void print_alphabet(int 1);
-
-void print_alphabet(int i)
+void print_alphabet(void)
 {
-	int i = 97;
+	char c;
 
-	while (i <= 122)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar ('i');
-		putchar ('\n');
+		_putchar(c);
 	}
 
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
+	_putchar('\n');
 }
