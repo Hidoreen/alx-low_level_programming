@@ -1,2 +1,1 @@
-# alx-low_level_programming
-Starting on C programming
+This is a project on how to debugg code manually. The rubby duch debugging
