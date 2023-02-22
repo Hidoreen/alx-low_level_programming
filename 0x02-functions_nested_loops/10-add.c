@@ -4,7 +4,7 @@
 /**
 *add - sum operation
 *@num1: value to add
-@num2: value to add
+*@num2: value to add
 *main - Entry point
 *Return: an sum between @num1 and @num2
 */
