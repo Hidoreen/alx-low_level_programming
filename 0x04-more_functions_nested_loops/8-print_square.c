@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * print_squar - a function that prints a square
- * return - Return a square
- * size - size of the square
+ * print_square - prints a square
+ * @size : size of the square
+ * return: always 0
  */
 
 void print_square(int size)

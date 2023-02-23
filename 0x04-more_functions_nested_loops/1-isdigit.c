@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * Main - Entry point
- * @c - Variable
- * _isdigit - a function that prints digits
- * Return : Return 1 if c is a digit, otherwise return 0
+ * _isdigit-chec if a character is a digit
+ * main - Entry point
+ * @c: Variable
+ * return ; return 1 if c is a digit, otherwise return 0
  */
 
 int _isdigit(int c)

@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- * Main - Entry point
  * print_most_numbers - is a function that prints numbers apart from 2 and 4
  * _putchar - is a function that collects input
  * Return - Always 0 (success)

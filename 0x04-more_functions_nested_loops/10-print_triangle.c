@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * main - entry point
- * return - always 0
- * _putchar - prints input
- * void print_triangle a fuunction that prints a triangle
- * size - the size of the triangle
+ * print_triangle a fuunction that prints a triangle
+ * _puthar - prints input
+ * @size: size parameter for the trianle size
+ * return: return 0
  */
 
 void print_triangle(int size)

@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * Main - Entry Point
- * print_diagonal - a function that prints a pattern
- * @n- how many times should \ be printed (a variable)
- * Return -  diagonal
+ * print_diagonal - prints a pattern
+ * @n: how many times should \ be printed (a variable)
+ * Return - always 0
  */
 
 void print_diagonal(int n)

@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - prints FizzBuzz program
  * return - always 0
  */
 
@@ -17,16 +17,16 @@ int main(void)
 	{
 		if (i % 3 == 0);
 		{
-			printf("%s\n", j);
+			printf(" %s \n", j);
 		}
 		if (i % 5 == 0)
 		{
-			printf("%s\n", k);
+			printf(" %s \n", k);
 		}
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("%s\n",jk);
+			printf(" %s \n",jk);
 	}
 	else
-		printf("%d\n", i);
+		printf(" %d \n", i);
 	return (0);
 }

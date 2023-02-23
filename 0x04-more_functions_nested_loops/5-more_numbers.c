@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * Main- Entry point 
- * _putchar - a function that prints input
  * more_numbers - a function that prints 0-9 x10 times
+ * _putchar - prints input
  * Return - Always 0 (success)
  */
 
@@ -21,5 +20,4 @@ void more_numbers(void)
 	}
 	_putchar ('\n');
 	return (0);
-}
-	
+}	

@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * Maint - Entry Point
- * _putchar - a function that prints input
  * print_line- a function that prints a line on the terminal
- * Return - ALWAYS 
- * int c - a variable
+ * _putchar - prints input
+ * @n: number of lines
+ * return - always 0
  */
 
 void print_line(int n)
