@@ -11,11 +11,11 @@ void puts2(char *str)
 {
 	int = o;
 
-	for (; str[o] != '\0')
+	for (str[o] != '\0')
 	{
 		if ((o % 2) == 0)
 		{
-			_putchar (str[0]);
+			_putchar (str[o]);
 		else
 			continue;
 		}
