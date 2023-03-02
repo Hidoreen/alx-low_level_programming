@@ -9,6 +9,7 @@
 char *leet(char *s)
 {
 	char *temp;
+
 	temp  = s;
 
 	while (*s)
