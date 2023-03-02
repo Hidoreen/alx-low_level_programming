@@ -31,5 +31,5 @@ char *cap_string(char *a)
 				index == 0)
 			a[index] -= 32;
 	}
-	return (a);
+	return (0);
 }
