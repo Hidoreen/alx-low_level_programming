@@ -21,8 +21,6 @@ char *string_toupper(char *)
 			a[i] = a[i] - 32;
 			i++;
 		}
-		else
-			_putchar (i);
 	}
 	return (0);
 }
