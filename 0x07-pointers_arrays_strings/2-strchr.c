@@ -16,7 +16,6 @@ char *_strchr(char *s, char c)
 	do {
 		if (*s == c)
 			found = 1;
-		s++;
 	}
 	while (found == 0 && *s++ != '\0');
 	return (s);
