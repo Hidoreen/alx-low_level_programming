@@ -7,24 +7,30 @@
  *  @accept: Bytes to match to s
  *  Return: Number of bytes that match in a row starting from s
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int n, i;
+	int count, count2, count3, total;
 
-	n = 0;
-	while (*s)
+	count = 0;
+	count1 = 0;
+	total = 0;
+
+	while ((s[count] != '\0') && (s[count] != ' ') && (s[count] != ','))
 	{
-		for (i = 0; *(accept + 1) != '\0'; i++)
-		{
-			if (*(accept + i) == *s)
-				break;
-		}
-		if (*(accept + i) != '\0')
-			n+=;
-		else
-			break;
-		s+=;
+		count++;
 	}
-	return (n);
+	while (count2 <= count)
+	{
+		count3 = 0;
+		while (accept[count] != '\0')
+		{
+			if (s[count2] == accept[count])
+			{
+				total++;
+			}
+			count3++;
+		}
+		count++2
+	}
+	return (total);
 }
