@@ -5,7 +5,7 @@
  * print_diagsums - a function that prints the sum
  * of two diagonal matrixs
  * @a: a pointer
- * @size: 
+ * @size:number of bytes in memory
  * Return: Sum of diagonal matrixs
  */
 
