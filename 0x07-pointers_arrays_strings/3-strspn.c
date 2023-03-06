@@ -9,28 +9,22 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int count, count2, count3, total;
+	unsigned int bytes = 0;
+	int index;
 
-	count = 0;
-	count1 = 0;
-	total = 0;
-
-	while ((s[count] != '\0') && (s[count] != ' ') && (s[count] != ','))
+	while (*s)
 	{
-		count++;
-	}
-	while (count2 <= count)
-	{
-		count3 = 0;
-		while (accept[count] != '\0')
+		for (index = 0; accept[index]; index++)
 		{
-			if (s[count2] == accept[count])
+			if (*s == accept[index])
 			{
-				total++;
+				bytes++;
+				break;
 			}
-			count3++;
+			else if (accept[index + 1] == '\0')
+				return (bytes);
 		}
-		count++2
+		s++;
 	}
-	return (total);
+	return (bytes);
 }
