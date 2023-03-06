@@ -6,6 +6,7 @@
  * pointer to char
  * @s: a double pointer
  * @to: The char variable
+ * Return: Always 0
  */
 
 void set_string(char **s, char *to)
