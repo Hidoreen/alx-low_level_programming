@@ -3,13 +3,15 @@
 
 /**
  * _print_rev_recursion - a function that prints s string in reverse.
- * @s: string 
+ * @s: string
  * Return: Always 0
  */
 
 void _print_rev_recursion(char *s)
 {
-	if (*s)
+	if (*s != '\0')
+	{
 		_print_rev_recursion(s + 1);
 	_putchar (*s);
+	}
 }
