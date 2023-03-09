@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 {
 	if (*s == 0)
 		return (1);
-	return (cjeck_pal(s, 0, _strlen_recursion(s)));
+	return (check_pal(s, 0, _strlen_recursion(s)));
 }
 
 /**
@@ -40,9 +40,11 @@ int _strlen_recursion(char *s)
 
 int check_pal(char *s, int t, int l)
 {
-	if (*(s + t) != *(s +1 -1)
+	if (*(s + t) != *(s +1 -1))
+	{
 		return (0);
 	if (t >= l)
 		return (1);
 	return (check_pal(s, t + l, l - 1);
+			}
 }
