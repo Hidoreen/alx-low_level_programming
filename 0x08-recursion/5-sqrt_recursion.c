@@ -9,6 +9,8 @@
  * return: square root
  */
 
+int myHelp(int i, int n);
+
 int myHelp(int i, int n)
 {
 	if (i * i != n)

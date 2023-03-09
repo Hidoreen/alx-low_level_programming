@@ -5,6 +5,7 @@
  * @n: number track for prime
  * @num:possible divisor
  */
+int check_prime(int n, int check);
 
 int check_prime(int n, int check)
 {
