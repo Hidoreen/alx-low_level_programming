@@ -12,9 +12,7 @@ int main(int __attribute__((unused)) argc, char *argv[])
 {
 	int i = 0;
 
-	while (i == 0)
-
-		printf("%d\n", *argv[i]);
+	printf("%d\n", *argv[i]);
 
 	return (0);
 }
