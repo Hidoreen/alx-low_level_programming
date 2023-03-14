@@ -17,9 +17,18 @@ char *create_array(unsigned int size, char c)
 	/* initialize a pointer*/
 	char *ptr;
 	unsigned int count = 0;
+
+	if (ptr == 0)
+	{
+		return (NULL);
+	}
 	/*Allocate space*/
 	ptr = malloc(size * sizeof(char));
 	/*put the character c in each of the memory*/
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 	for (count = 0; count < size; count++)
 	{
 		ptr[count] = c;
