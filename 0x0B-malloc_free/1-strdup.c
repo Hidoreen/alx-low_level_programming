@@ -30,12 +30,9 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	int i = 0;
-
-	while (str[i] != '\0')
+	for (i = 0; i <= str_len; i++)
 	{
 		pstr[i] = str[i];
-		i++;
 	}
 	return (pstr);
 }
