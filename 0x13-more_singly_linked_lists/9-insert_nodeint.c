@@ -2,9 +2,9 @@
 
 /**
  * insert_nodeint_at_index - inserts a new node at a given position.
- * @head: head of linked list
+ * @head: start of linked list
  * @idx: index to insert the node
- * @n: new node data
+ * @n: new node value
  * Return: new node
  */
 

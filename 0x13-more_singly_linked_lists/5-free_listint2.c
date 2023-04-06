@@ -9,7 +9,7 @@
 */
 void free_listint2(listint_t **head)
 {
-	listint_t *current, *temp;
+	listint_t *current, *temporary;
 
 	if (head != NULL)
 	{
@@ -18,12 +18,12 @@ void free_listint2(listint_t **head)
 
 		/*iterate through the whole list*/
 		/*while setting the current node to temp*/
-		while ((temp = current) != NULL)
+		while ((temporary = current) != NULL)
 		{
 			/*set next node to curretnt*/
 			current = current->next;
 			/*free temp, that is the current node*/
-			free(temp);
+			free(temporary);
 		}
 
 		*head = NULL;

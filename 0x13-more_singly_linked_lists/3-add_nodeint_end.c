@@ -4,7 +4,7 @@
 
 /**
  * add_nodeint_end - add a node at the end of a linked list
- * @head: The character to print
+ * @head: The start of node
  * @n: string for the new node
  *
  * Return: new node
