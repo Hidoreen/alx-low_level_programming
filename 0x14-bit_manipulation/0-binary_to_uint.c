@@ -12,7 +12,7 @@
 unsigned int binary_to_unit(const char *b)
 {
 	unsigned int result;
-	int len, weight;
+	int len, weight = 0;
 
 	if (b == NULL)
 		return (0);
