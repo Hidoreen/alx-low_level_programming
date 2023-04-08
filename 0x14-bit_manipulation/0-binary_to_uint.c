@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -12,21 +10,25 @@
 
 unsigned int binary_to_unit(const char *b)
 {
-	unsigned int result = 0, weight = 0;
-	int len;
+	unsigned int result;
+	int len, weight;
 
 	if (b == NULL)
 		return (0);
-	for (len = 0; b[len])
-		len++;
-	for (len -= 1; len >= 0; len--)
+	result = 0;
+
+	for (len = 0; b[len] != '\0'; len++)
+		;
+	for (len--, weight = 1, len >= 0; len--, weight *= 2)
 	{
 		if (b[len] != '0' && b[len] != '1')
 		{
 			return (0);
 		}
-		result += (b[len] - '0') *weight;
-		weight *= 2;
+		if (b[len] & 1)
+		{
+			result += weight;
+		}
 	}
 	return(result);
 }
