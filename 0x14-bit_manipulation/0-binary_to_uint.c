@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - converts binary to decimal
+ * binary_to_uint - converts binary to decimal
  * @b: a pointer that points to a string of 0 and 1 chars
  *
  * Return: if b is NULL or has characters other than 0 and 1 return o
