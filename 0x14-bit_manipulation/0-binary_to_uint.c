@@ -9,7 +9,7 @@
  * otherwise return the unsigned number represented.
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int result;
 	int len, weight = 0;
