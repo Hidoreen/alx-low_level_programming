@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "main.h"
 
 /**
@@ -19,7 +20,7 @@ unsigned int binary_to_unit(const char *b)
 
 	for (len = 0; b[len] != '\0'; len++)
 		;
-	for (len--, weight = 1, len >= 0; len--, weight *= 2)
+	for (len--, weight = 1; len >= 0; len--, weight *= 2)
 	{
 		if (b[len] != '0' && b[len] != '1')
 		{
@@ -30,5 +31,5 @@ unsigned int binary_to_unit(const char *b)
 			result += weight;
 		}
 	}
-	return(result);
+	return (result);
 }
