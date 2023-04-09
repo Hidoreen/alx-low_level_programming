@@ -17,16 +17,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (filename == NULL)
 		return (0);
-	file_descriptor = fopen(filename, O_RDONLY);
+	file_descriptor = open(filename, O_RDONLY);
 	if (file_descriptor == -1)
 		return (0);
 	buff = malloc(sizeof(char) * letters);
 	if (buff == NULL)
 	{
-		close(filr_descriptor);
+		close(file_descriptor);
 		return (0);
 	}
-	r = read(file_descriptor, buff, letter);
+	r = read(file_descriptor, buff, letters);
 		close(file_descriptor);
 	if (r == -1)
 	{
@@ -37,5 +37,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buff);
 	if (r != w)
 		return (0);
-	returm (w);
+	return (w);
 }
